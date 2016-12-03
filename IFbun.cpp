@@ -11,9 +11,18 @@ int main()
 	cin >> i;	
 
 	if(num == i){
-		cout << "同じ数です\n";
+		cout << "numと同じ数です\n";
 	}else{
-		cout << "違う数です\n";
+		cout << "numとは違う数です\n";
+	}
+
+	//else if
+	if(num < i){
+		cout << "入力した数はnumより大きいです\n";
+	}else if(num > i){
+		cout << "入力した数はnumより小さいです\n";
+	}else{
+
 	}
 	
 	return 0;
